@@ -1,0 +1,9 @@
+<button id="child">Click me</button>
+<script>
+    document.getElementById("child").addEventListener("click",(event)=>{
+        alert("Child cliked");
+        event.stopPropagation();
+    })
+</script>
+
+

@@ -11,7 +11,7 @@ const greet = outer();
 greet();
 
 
-function outer1(){
+function outer1(){ 
     let name1 = "ravi";
 
     function inner1(){

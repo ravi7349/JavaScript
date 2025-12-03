@@ -12,7 +12,7 @@ console.log(typeof c);     // "boolean"
 let d = String(c);         
 console.log(d);            // "false"
 console.log(typeof d);     // "string"
-
+x   
 // If we don’t store in 'd':
 console.log(String(c));    // Takes the value of 'c', makes temporary "false" (string)
 // and prints it. After printing, it gets discarded (garbage collected).

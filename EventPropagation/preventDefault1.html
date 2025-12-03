@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="https://google.com" id="link"> Go to google</a>
+    <script>
+        document.getElementById("link").addEventListener("click",(event)=>{
+            event.preventDefault();
+            alert("link click preventeds");
+        });
+    </script>
+</body>
+</html>

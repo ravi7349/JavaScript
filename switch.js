@@ -41,6 +41,7 @@ switch (userRole1) {
     default:
         console.log("access denied");
 }
+
 // Example 3
 let day = 0;
 switch(day)
