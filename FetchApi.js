@@ -14,6 +14,12 @@ async function getcatFact()
 }
 getcatFact();
 
+async function getfact(){
+    var response = await fetch("http");
+    var data = await response.json();
+    console.log(data);
+}
+
 async function getcatfact()
 {
     const data = await fetch("https://catfact.ninja/fact");

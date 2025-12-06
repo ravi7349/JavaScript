@@ -19,5 +19,10 @@ console.log(String(a));    // Takes the value of 'a', makes temporary "123" (str
 console.log(typeof String(a)); // "string"
 
 
+let d = 20;
+console.log(typeof d);
+let f = String(d);
+console.log(f);
+
 
 
